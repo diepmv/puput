@@ -14,7 +14,7 @@ class CommentProvider:
         raise NotImplementedError()
 
 
-class DisqusCommentProvider(CommentProvider):
+class DisqusCommentsProvider(CommentProvider):
 
     @property
     def template(self):
